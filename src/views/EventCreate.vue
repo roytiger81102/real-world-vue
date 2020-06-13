@@ -58,7 +58,7 @@ export default {
   data() {
     const times = []
     for (let i = 1; i <= 24; i++) {
-      times.push(i + ':00')
+      times.push(`${i}:00`)
     }
     return {
       event: this.createFreshEventObject(),
@@ -78,9 +78,7 @@ export default {
           })
           this.event = this.createFreshEventObject()
         })
-        .catch(() => {
-          console.log('There was a problem creating your event')
-        })
+        .catch(() => {})
     },
     createFreshEventObject() {
       const { user } = this.$store.state.user
