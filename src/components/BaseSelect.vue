@@ -1,12 +1,17 @@
 <template>
-  <div class="field">
+  <div>
     <label v-if="label">{{ label }}</label>
-    <select :value="value" @change="updateValue" v-bind="$attrs">
+    <select
+      :value="value"
+      @change="updateValue"
+      v-bind="$attrs"
+      v-on="listeners"
+    >
       <option
         v-for="option in options"
         :selected="option === value"
         :value="option"
-        :key="option"
+        :key="option.id"
         >{{ option }}
       </option>
     </select>
@@ -23,6 +28,14 @@ export default {
     },
     value: [String, Number],
     label: String
+  },
+  computed: {
+    listeners() {
+      return {
+        ...this.$listeners,
+        input: this.updateValue
+      }
+    }
   },
   methods: {
     updateValue(event) {

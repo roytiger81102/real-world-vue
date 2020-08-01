@@ -5,6 +5,9 @@ import store from './store'
 import 'nprogress/nprogress.css'
 import upperFirst from 'lodash/upperFirst'
 import camelCase from 'lodash/camelCase'
+import Vuelidate from 'vuelidate'
+
+Vue.use(Vuelidate)
 
 const requireComponent = require.context(
   './components',
