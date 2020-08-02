@@ -1,317 +1,59 @@
 {
   "events": [
     {
-      "id": 5928101,
-      "user": {
-        "id": "abc123",
-        "name": "Adam"
-      },
-      "category": "animal welfare",
-      "organizer": "Adam",
-      "title": "Cat Cabaret",
-      "description": "Yay felines!",
-      "location": "Meow Town",
-      "date": "2019-01-03T21:54:00.000Z",
-      "time": "2:00",
-      "attendees": [
-        {
-          "name": "Adam Jahr"
-        },
-        {
-          "name": "Gregg Pollack"
-        },
-        {
-          "name": "Mary Gordon"
-        }
-      ]
-    },
-    {
-      "id": 8419988,
-      "user": {
-        "id": "abc123",
-        "name": "Adam"
-      },
-      "category": "animal welfare",
-      "organizer": "Adam",
-      "title": "Kitty Cluster",
-      "description": "Yay cats!",
-      "location": "Catlandia",
-      "date": "2019-01-31T22:09:00.000Z",
-      "time": "7:00",
-      "attendees": [
-        {
-          "name": "Gregg Pollack"
-        },
-        {
-          "name": "Mary Gordon"
-        }
-      ]
-    },
-    {
-      "id": 4582797,
-      "user": {
-        "id": "abc123",
-        "name": "Adam"
-      },
-      "category": "animal welfare",
-      "organizer": "Adam",
-      "title": "Puppy Parade",
-      "description": "Yay pups!",
-      "location": "Puptown ",
-      "date": "2019-02-02T23:27:00.000Z",
-      "time": "1:00",
-      "attendees": []
-    },
-    {
-      "id": 8419989,
-      "category": "housing",
-      "organizer": {
-        "id": "1",
-        "name": "Paul Smith"
-      },
-      "title": "掃除",
-      "description": "部屋全体の掃除をします。",
-      "location": "自宅",
-      "date": "2020-04-29T12:27:00.000Z",
-      "time": "10:00",
-      "attendees": []
-    },
-    {
-      "id": 8419990,
-      "category": "sustainability",
-      "organizer": {
-        "id": "1",
-        "name": "Paul Smith"
-      },
-      "title": "タイトル",
-      "description": "内容",
-      "location": "場所",
-      "date": "2020-04-01T12:33:00.000Z",
-      "time": "14:00",
-      "attendees": []
-    },
-    {
-      "id": 2418678,
-      "category": "nature",
-      "organizer": {
-        "id": "1",
-        "name": "Paul Smith"
-      },
-      "title": "テストタイトル",
-      "description": "テスト内容",
-      "location": "テスト場所",
-      "date": "2020-04-15T12:53:00.000Z",
-      "time": "10:00",
-      "attendees": []
-    },
-    {
-      "id": 2409865,
+      "id": 6884962,
       "category": "education",
       "organizer": {
-        "id": "1",
-        "name": "Paul Smith"
+        "id": "abc123",
+        "name": "Adam"
       },
-      "title": "読書",
-      "description": "スクラム開発の知識を書籍から得る",
-      "location": "自宅",
-      "date": "2020-04-29T00:59:00.000Z",
-      "time": "13:00",
-      "attendees": []
-    },
-    {
-      "id": 8917216,
-      "category": "food",
-      "organizer": {
-        "id": "1",
-        "name": "Paul Smith"
-      },
-      "title": "夕飯",
-      "description": "夕飯の支度をする",
-      "location": "自宅",
-      "date": "2020-04-30T01:18:00.000Z",
-      "time": "17:00",
-      "attendees": []
-    },
-    {
-      "id": 219242,
-      "category": "housing",
-      "organizer": {
-        "id": "1",
-        "name": "Paul Smith"
-      },
-      "title": "休憩",
-      "description": "好きなことに時間を使う",
-      "location": "自宅",
-      "date": "2020-04-29T01:36:00.000Z",
-      "time": "14:00",
-      "attendees": []
-    },
-    {
-      "id": 2349046,
-      "category": "nature",
-      "organizer": {
-        "id": "1",
-        "name": "Paul Smith"
-      },
-      "title": "水やり",
-      "description": "プランターへ水やりをする",
-      "location": "自宅（ベランダ）",
-      "date": "2020-04-30T01:51:00.000Z",
-      "time": "16:00",
-      "attendees": []
-    },
-    {
-      "id": 6083999,
-      "category": "sustainability",
-      "organizer": {
-        "id": "1",
-        "name": "Paul Smith"
-      },
-      "title": "test",
-      "description": "test",
-      "location": "test",
-      "date": "2020-04-15T01:54:00.000Z",
+      "title": "Study",
+      "description": "Study Vue.js",
+      "location": "home",
+      "date": "2020-08-02T03:41:00.000Z",
       "time": "11:00",
       "attendees": []
     },
     {
-      "id": 1512739,
-      "category": "sustainability",
-      "organizer": {
-        "id": "1",
-        "name": "Paul Smith"
-      },
-      "title": "test2",
-      "description": "test2",
-      "location": "test2",
-      "date": "2020-04-01T01:55:00.000Z",
-      "time": "13:00",
-      "attendees": []
-    },
-    {
-      "id": 5600525,
-      "category": "sustainability",
-      "organizer": {
-        "id": "1",
-        "name": "Paul Smith"
-      },
-      "title": "test3",
-      "description": "test3",
-      "location": "test3",
-      "date": "2020-04-02T02:08:00.000Z",
-      "time": "6:00",
-      "attendees": []
-    },
-    {
-      "id": 1450557,
-      "category": "sustainability",
-      "organizer": {
-        "id": "1",
-        "name": "Paul Smith"
-      },
-      "title": "テスト",
-      "description": "テスト内容",
-      "location": "テスト場所",
-      "date": "2020-04-03T02:40:00.000Z",
-      "time": "15:00",
-      "attendees": []
-    },
-    {
-      "id": 6610828,
+      "id": 9476170,
       "category": "housing",
-      "organizer": {
-        "id": "1",
-        "name": "Paul Smith"
-      },
-      "title": "テスト３",
-      "description": "詳細",
-      "location": "場所",
-      "date": "2020-04-11T03:10:00.000Z",
-      "time": "13:00",
-      "attendees": []
-    },
-    {
-      "id": 1031495,
-      "category": "sustainability",
-      "organizer": {
-        "id": "1",
-        "name": "Paul Smith"
-      },
-      "title": "hogehoge",
-      "description": "description",
-      "location": "My home",
-      "date": "2020-04-17T03:18:00.000Z",
-      "time": "12:00",
-      "attendees": []
-    },
-    {
-      "id": 3456105,
-      "category": "sustainability",
-      "organizer": {
-        "id": "1",
-        "name": "Paul Smith"
-      },
-      "title": "テスト",
-      "description": "詳細",
-      "location": "場所",
-      "date": "2020-04-01T03:19:00.000Z",
-      "time": "1:00",
-      "attendees": []
-    },
-    {
-      "id": 6715236,
-      "category": "sustainability",
-      "organizer": {
-        "id": "1",
-        "name": "Paul Smith"
-      },
-      "title": "test",
-      "description": "description",
-      "location": "location",
-      "date": "2020-04-23T03:21:00.000Z",
-      "time": "10:00",
-      "attendees": []
-    },
-    {
-      "id": 266710,
-      "category": "sustainability",
-      "organizer": {
-        "id": "1",
-        "name": "Paul Smith"
-      },
-      "title": "test",
-      "description": "test",
-      "location": "test",
-      "date": "2020-04-01T03:24:00.000Z",
-      "time": "1:00",
-      "attendees": []
-    },
-    {
-      "id": 1576560,
-      "category": "nature",
-      "organizer": {
-        "id": "1",
-        "name": "Paul"
-      },
-      "title": "TestTitle",
-      "description": "TestDescription",
-      "location": "TestLocation",
-      "date": "2020-04-29T05:56:00.000Z",
-      "time": "14:00",
-      "attendees": []
-    },
-    {
-      "id": 5685482,
-      "category": "sustainability",
       "organizer": {
         "id": "abc123",
         "name": "Adam"
       },
-      "title": "テストイベント",
-      "description": "詳細情報",
-      "location": "自宅",
-      "date": "2020-04-30T08:14:00.000Z",
-      "time": "10:00",
+      "title": "Practice Bass",
+      "description": "al aire",
+      "location": "home",
+      "date": "2020-08-02T03:46:00.000Z",
+      "time": "13:00",
+      "attendees": []
+    },
+    {
+      "id": 9968054,
+      "category": "housing",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "title": "Watch TV Program",
+      "description": "SPEC",
+      "location": "home",
+      "date": "2020-08-02T03:58:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 847693,
+      "category": "community",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "title": "Online Seminar",
+      "description": "AWS",
+      "location": "home( live streaming )",
+      "date": "2020-08-12T03:59:00.000Z",
+      "time": "20:00",
       "attendees": []
     }
   ]
